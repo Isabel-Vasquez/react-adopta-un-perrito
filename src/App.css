@@ -1,0 +1,31 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.my-grid {
+	display: flex;
+	justify-content: space-around;
+	margin: 100px 0;
+}
+
+.my-card {
+	padding: 1rem;
+}
+.my-card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.my-card-img {
+	width: 100%;
+	object-fit: cover;
+	height: 200px;
+}
+
+.my-tags {
+	width: 95%;
+	padding: 5px 0;
+}
